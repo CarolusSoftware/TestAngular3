@@ -4,9 +4,292 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.31d6cfe0d16ae931b73c.css"></head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<style>:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#1abc9c;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-primary:#1abc9c;--bs-secondary:#2c3e50;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-font-sans-serif:"Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg,#ffffff26,#fff0);}*,:after,:before{box-sizing:border-box;}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth;}}body{margin:0;font-family:var(--bs-font-sans-serif);font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}h1,h2,h4{margin-top:0;margin-bottom:.5rem;font-family:Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-weight:700;line-height:1.2;}h1{font-size:calc(1.375rem + 1.5vw);}@media (min-width:1200px){h1{font-size:2.5rem;}}h2{font-size:calc(1.325rem + .9vw);}@media (min-width:1200px){h2{font-size:2rem;}}h4{font-size:calc(1.275rem + .3vw);}@media (min-width:1200px){h4{font-size:1.5rem;}}p{margin-top:0;margin-bottom:1rem;}ul{padding-left:2rem;}ul{margin-top:0;margin-bottom:1rem;}small{font-size:.875em;}a{color:#1abc9c;text-decoration:underline;}a:hover{color:#15967d;}img{vertical-align:middle;}label{display:inline-block;}button{border-radius:0;}button:focus:not(:focus-visible){outline:0;}button,input,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}button{text-transform:none;}[type=button],[type=submit],button{-webkit-appearance:button;}[type=button]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer;}textarea{resize:vertical;}.lead{font-size:1.25rem;font-weight:300;}.img-fluid{max-width:100%;height:auto;}.container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto;}@media (min-width:576px){.container{max-width:540px;}}@media (min-width:768px){.container{max-width:720px;}}@media (min-width:992px){.container{max-width:960px;}}@media (min-width:1200px){.container{max-width:1140px;}}@media (min-width:1400px){.container{max-width:1320px;}}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(var(--bs-gutter-y) * -1);margin-right:calc(var(--bs-gutter-x) * -.5);margin-left:calc(var(--bs-gutter-x) * -.5);}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y);}@media (min-width:768px){.col-md-6{flex:0 0 auto;width:50%;}}@media (min-width:992px){.col-lg-4{flex:0 0 auto;width:33.33333333%;}.col-lg-8{flex:0 0 auto;width:66.66666667%;}}@media (min-width:1200px){.col-xl-7{flex:0 0 auto;width:58.33333333%;}}.form-control{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff;background-clip:padding-box;border:.125rem solid #ced4da;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:.5rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;}@media (prefers-reduced-motion:reduce){.form-control{transition:none;}}.form-control:focus{color:#212529;background-color:#fff;border-color:#8ddece;outline:0;box-shadow:0 0 0 .25rem #1abc9c40;}.form-control::-webkit-date-and-time-value{height:1.5em;}.form-control::placeholder{color:#6c757d;opacity:1;}.form-control:disabled{background-color:#e9ecef;opacity:1;}.form-control::file-selector-button{padding:.375rem .75rem;margin:-.375rem -.75rem;margin-inline-end:.75rem;color:#212529;background-color:#e9ecef;pointer-events:none;border:0 solid;border-color:inherit;border-inline-end-width:.125rem;border-radius:0;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}@media (prefers-reduced-motion:reduce){.form-control::file-selector-button{transition:none;}}.form-control:hover:not(:disabled):not([readonly])::file-selector-button{background-color:#dde0e3;}.form-control::-webkit-file-upload-button{padding:.375rem .75rem;margin:-.375rem -.75rem;margin-inline-end:.75rem;color:#212529;background-color:#e9ecef;pointer-events:none;border:0 solid;border-color:inherit;border-inline-end-width:.125rem;border-radius:0;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}@media (prefers-reduced-motion:reduce){.form-control::-webkit-file-upload-button{-webkit-transition:none;transition:none;}}.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button{background-color:#dde0e3;}textarea.form-control{min-height:calc(1.5em + 1rem);}.form-floating{position:relative;}.form-floating>.form-control{height:5.5rem;line-height:1.25;}.form-floating>label{position:absolute;top:0;left:0;height:100%;padding:1.5rem 0;pointer-events:none;border:.125rem solid #0000;transform-origin:0 0;transition:opacity .1s ease-in-out,transform .1s ease-in-out;}@media (prefers-reduced-motion:reduce){.form-floating>label{transition:none;}}.form-floating>.form-control{padding:1.5rem 0;}.form-floating>.form-control::placeholder{color:#0000;}.form-floating>.form-control:focus,.form-floating>.form-control:not(:placeholder-shown){padding-top:2.5rem;padding-bottom:1.5rem;}.form-floating>.form-control:-webkit-autofill{padding-top:2.5rem;padding-bottom:1.5rem;}.form-floating>.form-control:focus~label,.form-floating>.form-control:not(:placeholder-shown)~label{opacity:.65;transform:scale(.65) translateY(-.5rem) translateX(0);}.form-floating>.form-control:-webkit-autofill~label{opacity:.65;transform:scale(.65) translateY(-.5rem) translateX(0);}.invalid-feedback{display:none;width:100%;margin-top:.25rem;font-size:.875em;color:#dc3545;}.btn{display:inline-block;font-weight:400;line-height:1.5;color:#212529;text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;user-select:none;background-color:initial;border:.125rem solid #0000;padding:.375rem .75rem;font-size:1rem;border-radius:.5rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}@media (prefers-reduced-motion:reduce){.btn{transition:none;}}.btn:hover{color:#212529;}.btn:focus{outline:0;box-shadow:0 0 0 .25rem #1abc9c40;}.btn.disabled,.btn:disabled{pointer-events:none;opacity:.65;}.btn-primary{color:#fff;background-color:#1abc9c;border-color:#1abc9c;}.btn-primary:focus,.btn-primary:hover{color:#fff;background-color:#16a085;border-color:#15967d;}.btn-primary:focus{box-shadow:0 0 0 .25rem #3cc6ab80;}.btn-primary:active{color:#fff;background-color:#15967d;border-color:#148d75;}.btn-primary:active:focus{box-shadow:0 0 0 .25rem #3cc6ab80;}.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#1abc9c;border-color:#1abc9c;}.btn-outline-light{color:#f8f9fa;border-color:#f8f9fa;}.btn-outline-light:hover{color:#000;background-color:#f8f9fa;border-color:#f8f9fa;}.btn-outline-light:focus{box-shadow:0 0 0 .25rem #f8f9fa80;}.btn-outline-light:active{color:#000;background-color:#f8f9fa;border-color:#f8f9fa;}.btn-outline-light:active:focus{box-shadow:0 0 0 .25rem #f8f9fa80;}.btn-outline-light:disabled{color:#f8f9fa;background-color:initial;}.fade{transition:opacity .15s linear;}@media (prefers-reduced-motion:reduce){.fade{transition:none;}}.fade:not(.show){opacity:0;}.collapse:not(.show){display:none;}.nav-link{display:block;padding:.5rem 1rem;color:#1abc9c;text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;}@media (prefers-reduced-motion:reduce){.nav-link{transition:none;}}.nav-link:focus,.nav-link:hover{color:#15967d;}.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem;}.navbar>.container{display:flex;flex-wrap:inherit;align-items:center;justify-content:space-between;}.navbar-brand{padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;text-decoration:none;white-space:nowrap;}.navbar-nav{display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none;}.navbar-nav .nav-link{padding-right:0;padding-left:0;}.navbar-collapse{flex-basis:100%;flex-grow:1;align-items:center;}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:initial;border:.125rem solid #0000;border-radius:.5rem;transition:box-shadow .15s ease-in-out;}@media (prefers-reduced-motion:reduce){.navbar-toggler{transition:none;}}.navbar-toggler:hover{text-decoration:none;}.navbar-toggler:focus{text-decoration:none;outline:0;box-shadow:0 0 0 .25rem;}@media (min-width:992px){.navbar-expand-lg{flex-wrap:nowrap;justify-content:flex-start;}.navbar-expand-lg .navbar-nav{flex-direction:row;}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem;}.navbar-expand-lg .navbar-collapse{display:flex!important;flex-basis:auto;}.navbar-expand-lg .navbar-toggler{display:none;}}.btn-close{box-sizing:initial;width:1em;height:1em;padding:.25em;color:#000;background:#0000 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") 50%/1em auto no-repeat;border:0;border-radius:.5rem;opacity:.5;}.btn-close:hover{color:#000;text-decoration:none;opacity:.75;}.btn-close:focus{outline:0;box-shadow:0 0 0 .25rem #1abc9c40;opacity:1;}.btn-close:disabled{pointer-events:none;-webkit-user-select:none;user-select:none;opacity:.25;}.modal{position:fixed;top:0;left:0;z-index:1060;display:none;width:100%;height:100%;overflow-x:hidden;overflow-y:auto;outline:0;}.modal-dialog{position:relative;width:auto;margin:.5rem;pointer-events:none;}.modal.fade .modal-dialog{transition:transform .3s ease-out;transform:translateY(-50px);}@media (prefers-reduced-motion:reduce){.modal.fade .modal-dialog{transition:none;}}.modal-content{position:relative;display:flex;flex-direction:column;width:100%;pointer-events:auto;background-color:#fff;background-clip:padding-box;border:.125rem solid #0003;border-radius:.75rem;outline:0;}.modal-header{display:flex;flex-shrink:0;align-items:center;justify-content:space-between;padding:1rem;border-bottom:.125rem solid #dee2e6;border-top-left-radius:.625rem;border-top-right-radius:.625rem;}.modal-header .btn-close{padding:.5rem;margin:-.5rem -.5rem -.5rem auto;}.modal-body{position:relative;flex:1 1 auto;padding:1rem;}@media (min-width:576px){.modal-dialog{max-width:500px;margin:1.75rem auto;}}@media (min-width:992px){.modal-xl{max-width:800px;}}@media (min-width:1200px){.modal-xl{max-width:1140px;}}.fixed-top{top:0;}.fixed-top{position:fixed;right:0;left:0;z-index:1030;}.d-flex{display:flex!important;}.d-none{display:none!important;}.border-0{border:0!important;}.w-100{width:100%!important;}.h-100{height:100%!important;}.flex-column{flex-direction:column!important;}.justify-content-center{justify-content:center!important;}.align-items-center{align-items:center!important;}.mx-0{margin-right:0!important;margin-left:0!important;}.mx-1{margin-right:.25rem!important;margin-left:.25rem!important;}.mx-auto{margin-right:auto!important;margin-left:auto!important;}.mt-4{margin-top:1.5rem!important;}.me-2{margin-right:.5rem!important;}.me-auto{margin-right:auto!important;}.mb-0{margin-bottom:0!important;}.mb-3{margin-bottom:1rem!important;}.mb-4{margin-bottom:1.5rem!important;}.mb-5{margin-bottom:3rem!important;}.ms-auto{margin-left:auto!important;}.px-0{padding-right:0!important;padding-left:0!important;}.py-3{padding-top:1rem!important;padding-bottom:1rem!important;}.py-4{padding-top:1.5rem!important;padding-bottom:1.5rem!important;}.pb-5{padding-bottom:3rem!important;}.fw-bolder{font-weight:bolder!important;}.text-center{text-align:center!important;}.text-uppercase{text-transform:uppercase!important;}.text-secondary{color:#2c3e50!important;}.text-danger{color:#dc3545!important;}.text-white{color:#fff!important;}.bg-primary{background-color:#1abc9c!important;}.bg-secondary{background-color:#2c3e50!important;}.rounded{border-radius:.5rem!important;}@media (min-width:992px){.mx-lg-1{margin-right:.25rem!important;margin-left:.25rem!important;}.mb-lg-0{margin-bottom:0!important;}.px-lg-3{padding-right:1rem!important;padding-left:1rem!important;}}html{height:100%;scroll-padding-top:calc(4.5rem - 1px);}.page-section{padding:6rem 0;}.page-section .page-section-heading{font-size:2.25rem;line-height:2rem;}@media (min-width:992px){.page-section .page-section-heading{font-size:3rem;line-height:2.5rem;}}.divider-custom{margin:1.25rem 0 1.5rem;width:100%;display:flex;justify-content:center;align-items:center;}.divider-custom .divider-custom-line{width:100%;max-width:7rem;height:.25rem;background-color:#2c3e50;border-radius:1rem;border-color:#2c3e50;}.divider-custom .divider-custom-line:first-child{margin-right:1rem;}.divider-custom .divider-custom-line:last-child{margin-left:1rem;}.divider-custom .divider-custom-icon{color:#2c3e50;font-size:2rem;}.divider-custom.divider-light .divider-custom-line{background-color:#fff;}.divider-custom.divider-light .divider-custom-icon{color:#fff;}.btn-xl{padding:1rem 1.75rem;font-size:1.25rem;}.btn-social{border-radius:100%;display:inline-flex;width:3.25rem;height:3.25rem;font-size:1.25rem;justify-content:center;align-items:center;}#mainNav{padding-top:1rem;padding-bottom:1rem;font-family:Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-weight:700;}#mainNav .navbar-brand{color:#fff;}#mainNav .navbar-nav{margin-top:1rem;}#mainNav .navbar-nav li.nav-item a.nav-link{color:#fff;}#mainNav .navbar-nav li.nav-item a.nav-link:hover{color:#1abc9c;}#mainNav .navbar-nav li.nav-item a.nav-link:active,#mainNav .navbar-nav li.nav-item a.nav-link:focus{color:#fff;}#mainNav .navbar-toggler{font-size:80%;padding:.8rem;}@media (min-width:992px){#mainNav{padding-top:1.5rem;padding-bottom:1.5rem;transition:padding-top .3s,padding-bottom .3s;}#mainNav .navbar-brand{font-size:1.75em;transition:font-size .3s;}#mainNav .navbar-nav{margin-top:0;}}.form-floating input.form-control,.form-floating textarea.form-control{font-size:1.5rem;border-left:0;border-right:0;border-top:0;border-radius:0;border-width:1px;}.form-floating input.form-control:focus,.form-floating textarea.form-control:focus{box-shadow:none;}.form-floating label{font-size:1.5rem;color:#6c757d;}.masthead{padding-top:calc(6rem + 74px);padding-bottom:6rem;}.masthead .masthead-heading{font-size:2.75rem;line-height:2.75rem;}.masthead .masthead-subheading{font-size:1.25rem;}.masthead .masthead-avatar{width:15rem;}@media (min-width:992px){.masthead{padding-top:calc(6rem + 104px);padding-bottom:6rem;}.masthead .masthead-heading{font-size:4rem;line-height:3.5rem;}.masthead .masthead-subheading{font-size:1.5rem;}}.portfolio .portfolio-item{cursor:pointer;position:relative;display:block;max-width:25rem;border-radius:.5rem;overflow:hidden;}.portfolio .portfolio-item .portfolio-item-caption{position:absolute;top:0;left:0;transition:all .2s ease-in-out;opacity:0;background-color:#1abc9ce6;}.portfolio .portfolio-item .portfolio-item-caption:hover{opacity:1;}.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content{font-size:1.5rem;}.portfolio-modal .btn-close{color:#1abc9c;font-size:2rem;padding:1rem;}.portfolio-modal .portfolio-modal-title{font-size:2.25rem;line-height:2rem;}@media (min-width:992px){.portfolio-modal .portfolio-modal-title{font-size:3rem;line-height:2.5rem;}}.footer{padding-top:5rem;padding-bottom:5rem;background-color:#2c3e50;color:#fff;}.copyright{background-color:#1a252f;}</style><link rel="stylesheet" href="styles.8a01f107ff6f9518715b.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.8a01f107ff6f9518715b.css"></noscript></head>
 <body>
-  <app-root></app-root>
-<script src="runtime.e70afd7595c64fdcac5b.js" defer></script><script src="polyfills.f0b8d967a725690eb1cd.js" defer></script><script src="main.6952792be9cd7d95d619.js" defer></script>
+  <!-- <app-root></app-root> -->
+  <!-- Navigation-->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <div class="container">
+      <a class="navbar-brand" href="#page-top">Carolus Software</a>
+      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Servicios</a></li>
+              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Nosotros</a></li>
+              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<!-- Masthead-->
+<header class="masthead bg-primary text-white text-center">
+  <div class="container d-flex align-items-center flex-column">
+      <!-- Masthead Avatar Image-->
+      <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="...">
+      <!-- Masthead Heading-->
+      <h1 class="masthead-heading text-uppercase mb-0">Carolus Software</h1>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-light mb-0">Desarrollamos tus ideas</p>
+  </div>
+</header>
+
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+  <div class="container">
+      <!-- Portfolio Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Servicios</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+      <!-- Portfolio Grid Items-->
+      <div class="row justify-content-center">
+          <!-- Portfolio Item 1-->
+          <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                      <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="...">
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+<!-- About Section-->
+<section class="page-section bg-primary text-white mb-0" id="about">
+  <div class="container">
+      <!-- About Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+      <!-- About Section Content-->
+      <div class="row">
+          <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
+          <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+      </div>
+      <!-- About Section Button-->
+      <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+              <i class="fas fa-download me-2"></i>
+              Free Download!
+          </a>
+      </div>
+  </div>
+</section>
+
+<!-- Contact Section-->
+<section class="page-section" id="contact">
+  <div class="container">
+      <!-- Contact Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+      <!-- Contact Section Form-->
+      <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- * * SB Forms Contact Form * *-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- This form is pre-integrated with SB Forms.-->
+              <!-- To make this form functional, sign up at-->
+              <!-- https://startbootstrap.com/solution/contact-forms-->
+              <!-- to get an API token!-->
+              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                  <!-- Name input-->
+                  <div class="form-floating mb-3">
+                      <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required">
+                      <label for="name">Full name</label>
+                      <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                  </div>
+                  <!-- Email address input-->
+                  <div class="form-floating mb-3">
+                      <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email">
+                      <label for="email">Email address</label>
+                      <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                      <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                  </div>
+                  <!-- Phone number input-->
+                  <div class="form-floating mb-3">
+                      <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required">
+                      <label for="phone">Phone number</label>
+                      <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                  </div>
+                  <!-- Message input-->
+                  <div class="form-floating mb-3">
+                      <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                      <label for="message">Message</label>
+                      <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                  </div>
+                  <!-- Submit success message-->
+                  <!---->
+                  <!-- This is what your users will see when the form-->
+                  <!-- has successfully submitted-->
+                  <div class="d-none" id="submitSuccessMessage">
+                      <div class="text-center mb-3">
+                          <div class="fw-bolder">Form submission successful!</div>
+                          To activate this form, sign up at
+                          <br>
+                          <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                      </div>
+                  </div>
+                  <!-- Submit error message-->
+                  <!---->
+                  <!-- This is what your users will see when there is-->
+                  <!-- an error submitting the form-->
+                  <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                  <!-- Submit Button-->
+                  <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer-->
+<footer class="footer text-center">
+  <div class="container">
+      <div class="row">
+          <!-- Footer Location-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Location</h4>
+              <p class="lead mb-0">
+                  2215 John Daniel Drive
+                  <br>
+                  Clark, MO 65243
+              </p>
+          </div>
+          <!-- Footer Social Icons-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Around the Web</h4>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+          </div>
+          <!-- Footer About Text-->
+          <div class="col-lg-4">
+              <h4 class="text-uppercase mb-4">About Freelancer</h4>
+              <p class="lead mb-0">
+                  Freelance is a free to use, MIT licensed Bootstrap theme created by
+                  <a href="http://startbootstrap.com">Start Bootstrap</a>
+                  .
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- Copyright Section-->
+<div class="copyright py-4 text-center text-white">
+  <div class="container"><small>Copyright © Your Website 2021</small></div>
+</div>
+
+<!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                  <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                  <div class="modal-body text-center pb-5">
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <!-- Portfolio Modal - Title-->
+                                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                  <!-- Icon Divider-->
+                                  <div class="divider-custom">
+                                      <div class="divider-custom-line"></div>
+                                      <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                      <div class="divider-custom-line"></div>
+                                  </div>
+                                  <!-- Portfolio Modal - Image-->
+                                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="...">
+                                  <!-- Portfolio Modal - Text-->
+                                  <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                      <i class="fas fa-times fa-fw"></i>
+                                      Close Window
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <script>
+        window.addEventListener('DOMContentLoaded', event => {
+
+// Navbar shrink function
+var navbarShrink = function () {
+    const navbarCollapsible = document.body.querySelector('#mainNav');
+    if (!navbarCollapsible) {
+        return;
+    }
+    if (window.scrollY === 0) {
+        navbarCollapsible.classList.remove('navbar-shrink')
+    } else {
+        navbarCollapsible.classList.add('navbar-shrink')
+    }
+
+};
+
+// Shrink the navbar 
+navbarShrink();
+
+// Shrink the navbar when page is scrolled
+document.addEventListener('scroll', navbarShrink);
+
+// Activate Bootstrap scrollspy on the main nav element
+const mainNav = document.body.querySelector('#mainNav');
+if (mainNav) {
+    new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav',
+        offset: 72,
+    });
+};
+
+// Collapse responsive navbar when toggler is visible
+const navbarToggler = document.body.querySelector('.navbar-toggler');
+const responsiveNavItems = [].slice.call(
+    document.querySelectorAll('#navbarResponsive .nav-link')
+);
+responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItem.addEventListener('click', () => {
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            navbarToggler.click();
+        }
+    });
+});
+
+});
+      </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="runtime.e70afd7595c64fdcac5b.js" defer></script><script src="polyfills.f0b8d967a725690eb1cd.js" defer></script><script src="main.7857d5e60cefc74e0d0b.js" defer></script>
 
 </body></html>
